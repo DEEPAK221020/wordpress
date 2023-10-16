@@ -19,3 +19,23 @@ $data = array_values($p);
 
 // Print the modified array
 print_r($data);
+
+
+[15/10, 23:35] Deepak Kumar Sharma: check if checkbox is checked or not 
+
+    $(".form-check :checkbox").change(function() {
+      
+    
+     var b = $(".form-check :checkbox:checked").length > 0;
+
+     if (b) {
+
+      console.log('hello world');
+      
+     }
+     else{
+      console.log('not checked');
+     }
+   });
+[16/10, 00:02] Deepak Kumar Sharma: var allHidden = $('.mycard').filter(':hidden').length === $('.mycard').length;
+      console.log(allHidden);
